@@ -1,10 +1,10 @@
 # site settings
-title: Forty
-subtitle: by HTML5 UP
-email: youremailaddress@gmail.com
+title: Harry Clark
+subtitle: A Talented and Driven Mechanical Engineer
+email: ha.l.clark96@gmail.com
 description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
-baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
-url: # the base hostname & protocol for your site
+baseurl: "/portfolio" # the subpath of your site, e.g. /blog
+url: https://hclark96.github.io/ # the base hostname & protocol for your site
 author:
 street_address: 1234 Somewhere Road
 city: Nashville
