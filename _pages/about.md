@@ -1,7 +1,6 @@
 ---
 permalink: /about/
 title: "About"
-layout: default
 ---
 
 Harry Lewis Clark, Jr. is a highly motivated and experienced mechanical engineer with a passion for robotics and mechatronics. He is currently finishing a Master's of Science in Mechanical Engineering from Santa Clara University and holds a Bachelor's' of Science in Engineering Physics from the University of California, Berkeley.
