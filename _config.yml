@@ -61,6 +61,9 @@ author:
   avatar : "/assets/images/me.jpeg"
   bio    : "A Master's student and mechanical engineer with a keen interest in robotics and semiconductor technologies."
   links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/harry-clark-5b6b84102/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/hclark96"
@@ -70,6 +73,9 @@ author:
 
 footer:
   links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/harry-clark-5b6b84102/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/hclark96"
