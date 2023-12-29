@@ -1,31 +1,13 @@
 ---
-title: "Projects"
-layout: collection
-permalink: /projects/
-collection: portfolio
-entries_layout: grid
+layout: default
 ---
 
-{{ content }}
+<h1>{{ page.title | default: site.title }}</h1>
 
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].projects | default: "Projects" }}</h3>
-
-{% if paginator %}
-  {% assign projects = paginator.projects %}
-{% else %}
-  {% assign projects = site.projects %}
-{% endif %}
-
-{% assign entries_layout = page.entries_layout | default: 'list' %}
-<div class="entries-{{ entries_layout }}">
-  {% for project in projects %}
-    <!-- Customize the display of each project as needed -->
-    <div class="project">
-      <h2>{{ project.title }}</h2>
-      <p>{{ project.description }}</p>
-      <!-- Add more fields or customize as needed -->
-    </div>
+<ul>
+  {% for page in site.pages %}
+    {% if page.url != '/' %}
+      <li><a href="{{ page.url | relative_url }}">{{ page.title | default: page.name }}</a></li>
+    {% endif %}
   {% endfor %}
-</div>
-
-{% include paginator.html %}
+</ul>
