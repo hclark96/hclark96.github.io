@@ -13,13 +13,13 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: HLC Portfolio
+title: HLC
 email: ha.l.clark96@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   A portfolio of works by Harry L. Clark.
 twitter_username: username
 github_username: username
-minimal_mistakes_skin: neon
+minimal_mistakes_skin: dark
 search: False
 
 # Build settings
@@ -61,30 +61,21 @@ author:
   avatar : "/assets/images/me.jpeg"
   bio    : "A Master's student and mechanical engineer with a keen interest in robotics and semiconductor technologies."
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/hclark96"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://www.instagram.com/h_lewisandclark/"
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/hclark96"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://www.instagram.com/h_lewisandclark/"
 
 defaults:
   # _posts
@@ -94,10 +85,10 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
-      comments: true
+      read_time: false
+      comments: false
       share: true
-      related: true
+      related: false
   # _pages
   - scope:
       path: "_pages"
