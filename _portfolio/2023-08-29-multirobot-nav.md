@@ -2,7 +2,7 @@
 title: "Multirobot Control"
 excerpt: "Modernizing a fleet of rovers to explore adaptive navigation."
 header:
-  teaser: /assets/images/pioneers.jpeg
+  teaser: /assets/images/pioneer-small.jpeg
 sidebar:
   - title: "Role"
     text: "Project Lead"
