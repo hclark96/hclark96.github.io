@@ -3,7 +3,7 @@ layout: archive
 ---
 
 <ul>
-  {% assign allowed_pages = site.pages | where: "title", "project-archive" | concat: site.pages | where: "title", "about" %}
+  {% assign allowed_pages = site.pages | where: "title", "project-archive" | concat: site.pages | where: "title", "About" %}
   {% for page in allowed_pages %}
     <li><a href="{{ page.url | relative_url }}">{{ page.title | default: page.name }}</a></li>
   {% endfor %}
