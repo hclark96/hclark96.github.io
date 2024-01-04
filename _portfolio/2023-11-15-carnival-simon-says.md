@@ -1,12 +1,13 @@
 ---
 title: "Penny Arcade Cabinet"
-date: 2023-11-15T15:34:30-04:00
-categories:
-- Blog
-tags:
-- Post Formats
-- readability
-- standard
+excerpt: "A quick class project designing an arcade game."
+header:
+  teaser: /assets/images/pennyarcadesmall.png
+sidebar:
+  - title: "Role"
+    text: "Project Lead"
+  - title: "Responsibilities"
+    text: "Design, software development, manufacturing and assembly."
 ---
 ![Are You Smarter than a Box?](/assets/images/pennyarcade.jpg)
 
