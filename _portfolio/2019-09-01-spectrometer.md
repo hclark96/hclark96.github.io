@@ -1,11 +1,13 @@
 ---
 title: "Custom Spectrometer"
-date: 2019-09-01T15:34:30-04:00
-categories:
-- Blog
-tags:
-- Post Formats
-- readability
-- standard
+excerpt: "Designing an in-house spectrometer for use in wafer metrology tools."
+header:
+  teaser: /assets/images/opticalpath.png
+sidebar:
+  - title: "Role"
+    text: "Project Lead"
+  - title: "Responsibilities"
+    text: "Optical design, part selection, implementation, testing."
 ---
 ![Zemax Sim of Spectrometer Internals](/assets/images/spectro.webp)
+![Zemax Sim of System](/assets/images/zemaxsim.png)
