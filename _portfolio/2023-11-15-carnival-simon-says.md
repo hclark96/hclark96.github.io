@@ -2,7 +2,7 @@
 title: "Penny Arcade Cabinet"
 excerpt: "A quick class project designing an arcade game."
 header:
-  teaser: /assets/images/pennyarcadesmall.png
+  teaser: /assets/images/pennyarcadesmall.jpeg
 sidebar:
   - title: "Role"
     text: "Project Lead"
